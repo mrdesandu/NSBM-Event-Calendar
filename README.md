@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 🎓 NSBM Event Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive, interactive platform designed for NSBM Green University students to discover, register for, and manage university events seamlessly.
 
-## Available Scripts
+## 📖 About the Project
+This web application provides a centralized hub for the NSBM community. Students can browse upcoming events on a dynamic calendar, book tickets, and mark their attendance. Club Presidents and Lecturers have administrative privileges to create, edit, and manage events, track student bookings, and invite co-organizers via an built-in notification system.
 
-In the project directory, you can run:
+## ✨ Key Features
+* **Role-Based Access Control:** Different dashboard views and permissions for Students, Club Presidents, and Lecturers.
+* **Interactive Calendar:** A dynamic monthly calendar view to easily spot upcoming activities with category-based color coding.
+* **Event Management:** Admins can seamlessly create, edit, and manage events (supports both Free and Paid events).
+* **Ticketing & Seat Tracking:** Real-time tracking of available seats, ticket prices, and "Sold Out" statuses for paid events.
+* **Co-Organizer Invites:** Admins can invite other staff/presidents to co-manage events using an in-app notification bell system (Accept/Decline feature).
+* **Search & Filter:** Easily find specific events using the search bar or category dropdown.
+* **Persistent Data:** Uses `localStorage` to save events, bookings, and invites locally so data is not lost on page refresh.
 
-### `npm start`
+## 🚀 Technologies Used
+* **Frontend:** React.js, JavaScript, HTML5
+* **Styling:** Custom Inline CSS (No external UI libraries required)
+* **Storage:** Browser LocalStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*(Note: Drag and drop your screenshots here when editing on GitHub)*
 
-### `npm test`
+* **Login Screen**
+* **Calendar View & Search**
+* **Event Details & Ticket Booking**
+* **Create/Edit Event Form**
+* **My Organised Events Dashboard**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔐 Demo Credentials
+Use the following mock accounts to test different roles (Password for all accounts is **123**):
+* **Student:** `student@nsbm.lk` (View & join events)
+* **President:** `president@nsbm.lk` (Can add/edit events & invite admins)
+* **Lecturer:** `lecturer@nsbm.lk` (Can add/edit events)
 
-### `npm run build`
+## 💻 How to Run Locally
+1. Clone this repository to your local machine.
+2. Open the terminal in the project directory.
+3. Run `npm install` to install the necessary dependencies.
+4. Run `npm start` to launch the application.
+5. Open `http://localhost:3000` in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🙏 Acknowledgments
+* UI/UX Design, core logic, and feature development were heavily assisted and generated by **Google Gemini AI**.
