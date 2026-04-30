@@ -24,10 +24,24 @@ This web application provides a centralized hub for the NSBM community. Students
 *(Note: Drag and drop your screenshots here when editing on GitHub)*
 
 * **Login Screen**
+<img width="1920" height="1080" alt="Screenshot (416)" src="https://github.com/user-attachments/assets/b472d857-ec13-4791-9317-df0125e28676" />
+
 * **Calendar View & Search**
+<img width="1920" height="1080" alt="Screenshot (417)" src="https://github.com/user-attachments/assets/3b6e4588-e768-4dfb-b118-f5bafa5571f9" />
+
 * **Event Details & Ticket Booking**
+<img width="1920" height="1080" alt="Screenshot (421)" src="https://github.com/user-attachments/assets/fe5e2c78-e734-4170-8411-7f4b3874842f" />
+<img width="1920" height="1080" alt="Screenshot (420)" src="https://github.com/user-attachments/assets/ea3d1c34-9630-47a2-aa20-4315b140c8ee" />
+<img width="1920" height="1080" alt="Screenshot (418)" src="https://github.com/user-attachments/assets/a7f57644-112c-4d61-8749-f8497cd72000" />
+
 * **Create/Edit Event Form**
+<img width="1920" height="1080" alt="Screenshot (422)" src="https://github.com/user-attachments/assets/54b9b703-78e6-42cd-bcd6-878bb44db9c4" />
+<img width="1920" height="1080" alt="Screenshot (423)" src="https://github.com/user-attachments/assets/e488bc52-ab79-4a2c-a552-18515f579813" />
+
 * **My Organised Events Dashboard**
+<img width="1920" height="1080" alt="Screenshot (425)" src="https://github.com/user-attachments/assets/78088f62-385a-4903-8464-061e94aafabd" />
+
+
 
 ## 🔐 Demo Credentials
 Use the following mock accounts to test different roles (Password for all accounts is **123**):
